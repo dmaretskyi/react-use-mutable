@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register \"test/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\""
+    "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\"",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react",
