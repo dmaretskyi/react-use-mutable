@@ -9,11 +9,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "strict": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "jsx": "preserve"
-  },
-  "include": [
-    "src"
-  ]
+  }
 }

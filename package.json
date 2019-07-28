@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "test": "mocha -r ts-node/register \"test/**/*.ts\"",
     "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\""
   },
   "keywords": [
@@ -26,10 +27,17 @@
   "author": "Dmytro Maretskyi <maretskii@gmail.com>",
   "license": "Unlicense",
   "dependencies": {
-    "@types/react": "^16.8.23",
-    "react": "^16.8.6"
+    "@types/react": "^16.8.23"
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^1.1.0",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   }
