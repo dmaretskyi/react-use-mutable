@@ -1,4 +1,10 @@
 # react-use-mutable
+
+[![NPM](https://img.shields.io/npm/v/react-use-mutable.svg)](https://www.npmjs.com/package/react-use-mutable)
+[![CircleCI](https://img.shields.io/circleci/build/github/Marik-D/react-use-mutable/master.svg)](https://circleci.com/gh/Marik-D/react-use-mutable/tree/master)
+[![License](https://img.shields.io/github/license/Marik-D/react-use-mutable.svg)](https://github.com/Marik-D/react-use-mutable/blob/master/UNLICENSE)
+
+
 Tiny hook that keeps your react state up-to-date in callbacks.
 
 ## Installation
