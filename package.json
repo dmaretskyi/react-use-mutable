@@ -7,9 +7,17 @@
     "build": "tsc",
     "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "state",
+    "mutable",
+    "callback",
+    "callbacks"
+  ],
+  "author": "Dmytro Maretskyi <maretskii@gmail.com>",
+  "license": "Unlicense",
   "dependencies": {
     "@types/react": "^16.8.23",
     "react": "^16.8.6"
