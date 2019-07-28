@@ -2,7 +2,8 @@
   "name": "react-use-mutable",
   "version": "0.1.0",
   "description": "Tiny hook that keeps your react state up-to-date in callbacks.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\""
@@ -15,6 +16,12 @@
     "mutable",
     "callback",
     "callbacks"
+  ],
+  "files": [
+    "package.json",
+    "dist",
+    "Unlicense",
+    "README.md"
   ],
   "author": "Dmytro Maretskyi <maretskii@gmail.com>",
   "license": "Unlicense",
