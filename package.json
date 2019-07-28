@@ -1,0 +1,21 @@
+{
+  "name": "react-use-mutable",
+  "version": "0.1.0",
+  "description": "Tiny hook that keeps your react state up-to-date in callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json \"{src,test}/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.23",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
