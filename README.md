@@ -68,3 +68,27 @@ Helper function to apply `useMutable` to whole callbacks. Returned value can be 
 directly in the same way as the original.
 
 **You don't need to use `useMutable` inside mutable callbacks.**
+
+### `useMutableState`
+
+```typescript
+
+function useMutableState<S> (initialState?: S): [() => S, (newValue: S) => void]
+
+```
+
+Works in the same way as React's default `useState` but returns a getter function
+as the first value in the tuple.
+
+Can be thought as a combination of `useState` and `useMutable`:
+
+```typescript
+const [value, setValue] = useState()
+const getValue = useMutable(value)
+
+...
+
+console.log(getValue())
+
+setValue(42)
+```
