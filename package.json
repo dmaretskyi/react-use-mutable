@@ -27,6 +27,12 @@
   ],
   "author": "Dmytro Maretskyi <maretskii@gmail.com>",
   "license": "Unlicense",
+  "homepage": "https://github.com/Marik-D/react-use-mutable",
+  "bugs": "https://github.com/Marik-D/react-use-mutable/issues",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Marik-D/react-use-mutable.git"
+  },
   "dependencies": {
     "@types/react": "^16.8.23"
   },
