@@ -1,6 +1,6 @@
 {
   "name": "react-use-mutable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny hook that keeps your react state up-to-date in callbacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,8 +30,8 @@
   "homepage": "https://github.com/Marik-D/react-use-mutable",
   "bugs": "https://github.com/Marik-D/react-use-mutable/issues",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Marik-D/react-use-mutable.git"
+    "type": "git",
+    "url": "https://github.com/Marik-D/react-use-mutable.git"
   },
   "dependencies": {
     "@types/react": "^16.8.23"
